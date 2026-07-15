@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CleanPro Nîmes – Nettoyage Automobile & Textile à Domicile</title>
+<meta name="description" content="Expert en nettoyage automobile et textile à domicile à Nîmes. Particuliers et professionnels. Devis gratuit sous 24h. Appelez le 07 78 57 76 48.">
+<meta property="og:title" content="CleanPro Nîmes – Nettoyage Automobile & Textile">
+<meta property="og:description" content="Nettoyage professionnel à domicile à Nîmes. Intérieur auto, canapés, matelas. Dès 40€. Réservation en ligne.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://cleanpronimes.netlify.app">
+<meta property="og:locale" content="fr_FR">
+
+<!-- ================================================
+     META PIXEL — COLLER VOTRE PIXEL ID ICI
+     1. Allez sur business.facebook.com
+     2. Paramètres > Sources de données > Pixels
+     3. Créer un pixel > Copier l'ID
+     4. Remplacer VOTRE_PIXEL_ID_ICI par votre ID
+     ================================================ -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1128508117023580');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1128508117023580&ev=PageView&noscript=1"
+/></noscript>
+<!-- FIN META PIXEL -->
+
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --navy:#0d1b2a;
+  --navy2:#132031;
+  --blue:#1a6fc4;
+  --blue-light:#2e8ee8;
+  --ice:#e8f4fd;
+  --gold:#e8a020;
+  --white:#ffffff;
+  --gray:#f5f6f8;
+  --text:#1a1f2e;
+  --muted:#5a6375;
+  --border:#dde3ed;
+}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;color:var(--text);background:var(--white);line-height:1.6}
+h1,h2,h3,h4{font-family:'Barlow Condensed',sans-serif;line-height:1.1}
+a{text-decoration:none;color:inherit}
+img{max-width:100%}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(13,27,42,0.97);backdrop-filter:blur(8px);padding:0 5%;height:68px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-family:'Barlow Condensed',sans-serif;font-size:1.5rem;font-weight:800;color:var(--white);letter-spacing:0.5px}
+.logo span{color:var(--gold)}
+.nav-links{display:flex;gap:2rem;list-style:none}
+.nav-links a{color:rgba(255,255,255,0.75);font-size:0.9rem;font-weight:500;letter-spacing:0.3px;transition:color 0.2s}
+.nav-links a:hover{color:var(--white)}
+.nav-cta{background:var(--blue);color:var(--white)!important;padding:0.5rem 1.25rem;border-radius:6px;font-weight:500!important;transition:background 0.2s!important}
+.nav-cta:hover{background:var(--blue-light)!important}
+
+/* HERO */
+.hero{min-height:100vh;background:linear-gradient(135deg,var(--navy) 0%,#0f2640 60%,#1a3a5c 100%);display:flex;align-items:center;padding:100px 5% 60px;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-200px;right:-100px;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(46,142,232,0.12) 0%,transparent 70%)}
+.hero::after{content:'';position:absolute;bottom:-150px;left:30%;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(232,160,32,0.08) 0%,transparent 70%)}
+.hero-inner{max-width:1100px;margin:0 auto;width:100%;display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(46,142,232,0.15);border:1px solid rgba(46,142,232,0.3);color:#7fc3f5;font-size:0.8rem;font-weight:500;letter-spacing:1px;text-transform:uppercase;padding:6px 16px;border-radius:100px;margin-bottom:1.5rem}
+.hero-badge::before{content:'';width:6px;height:6px;border-radius:50%;background:#2e8ee8}
+.hero h1{font-size:clamp(3rem,6vw,5rem);font-weight:800;color:var(--white);margin-bottom:1rem;text-transform:uppercase;letter-spacing:1px}
+.hero h1 em{color:var(--gold);font-style:normal}
+.hero-sub{font-size:1.05rem;color:rgba(255,255,255,0.65);font-weight:300;max-width:440px;margin-bottom:2rem;line-height:1.7}
+.hero-btns{display:flex;gap:1rem;flex-wrap:wrap}
+.btn-primary{background:var(--blue);color:var(--white);padding:0.85rem 2rem;border-radius:8px;font-weight:500;font-size:0.95rem;transition:all 0.2s;display:inline-block}
+.btn-primary:hover{background:var(--blue-light);transform:translateY(-1px)}
+.btn-ghost{border:1px solid rgba(255,255,255,0.25);color:rgba(255,255,255,0.8);padding:0.85rem 2rem;border-radius:8px;font-weight:400;font-size:0.95rem;transition:all 0.2s;display:inline-block}
+.btn-ghost:hover{border-color:rgba(255,255,255,0.5);color:var(--white)}
+.hero-stats{display:flex;gap:2rem;margin-top:3rem}
+.hero-stat-num{font-family:'Barlow Condensed',sans-serif;font-size:2.2rem;font-weight:700;color:var(--white)}
+.hero-stat-num span{color:var(--gold)}
+.hero-stat-lbl{font-size:0.75rem;color:rgba(255,255,255,0.45);text-transform:uppercase;letter-spacing:0.5px}
+
+.hero-card{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);border-radius:16px;padding:2rem;backdrop-filter:blur(4px)}
+.hero-card-title{font-family:'Barlow Condensed',sans-serif;font-size:1.3rem;font-weight:700;color:var(--white);text-transform:uppercase;letter-spacing:1px;margin-bottom:1.5rem;display:flex;align-items:center;gap:10px}
+.hero-card-title::before{content:'';width:3px;height:20px;background:var(--gold);border-radius:2px}
+.service-item{display:flex;justify-content:space-between;align-items:center;padding:0.85rem 0;border-bottom:1px solid rgba(255,255,255,0.07)}
+.service-item:last-child{border-bottom:none}
+.service-name{font-size:0.9rem;color:rgba(255,255,255,0.75)}
+.service-price{font-family:'Barlow Condensed',sans-serif;font-size:1.1rem;font-weight:600;color:var(--gold)}
+.service-tag{font-size:0.7rem;background:rgba(46,142,232,0.2);color:#7fc3f5;padding:2px 8px;border-radius:100px;border:1px solid rgba(46,142,232,0.3)}
+
+/* SECTION STYLES */
+section{padding:80px 5%}
+.section-inner{max-width:1100px;margin:0 auto}
+.section-tag{font-size:0.75rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--blue);margin-bottom:0.75rem}
+.section-title{font-size:clamp(2rem,4vw,3rem);font-weight:800;text-transform:uppercase;margin-bottom:1rem;color:var(--navy)}
+.section-sub{font-size:1rem;color:var(--muted);max-width:560px;font-weight:300}
+
+/* ABOUT / POURQUOI */
+.about{background:var(--gray)}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}
+.about-text{display:flex;flex-direction:column;gap:1.5rem}
+.feature-item{display:flex;gap:1rem;align-items:flex-start}
+.feature-icon{width:40px;height:40px;border-radius:10px;background:var(--ice);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1.2rem}
+.feature-title{font-weight:500;margin-bottom:0.2rem;font-size:0.95rem}
+.feature-desc{font-size:0.85rem;color:var(--muted)}
+.about-visual{background:var(--navy);border-radius:16px;padding:2.5rem;color:var(--white)}
+.av-label{font-size:0.7rem;text-transform:uppercase;letter-spacing:1.5px;color:rgba(255,255,255,0.4);margin-bottom:2rem}
+.av-item{margin-bottom:1.75rem}
+.av-item-top{display:flex;justify-content:space-between;margin-bottom:8px}
+.av-item-name{font-size:0.85rem;color:rgba(255,255,255,0.7)}
+.av-item-pct{font-family:'Barlow Condensed',sans-serif;font-size:0.95rem;font-weight:600;color:var(--gold)}
+.av-bar{height:4px;background:rgba(255,255,255,0.08);border-radius:4px;overflow:hidden}
+.av-fill{height:100%;border-radius:4px;background:linear-gradient(90deg,var(--blue),var(--blue-light))}
+
+/* SERVICES */
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:3rem}
+.service-card{border:1px solid var(--border);border-radius:14px;padding:2rem;transition:all 0.25s;background:var(--white)}
+.service-card:hover{border-color:var(--blue);transform:translateY(-4px);box-shadow:0 12px 40px rgba(26,111,196,0.1)}
+.sc-icon{width:48px;height:48px;border-radius:12px;background:var(--ice);display:flex;align-items:center;justify-content:center;font-size:1.5rem;margin-bottom:1.25rem}
+.sc-title{font-family:'Barlow Condensed',sans-serif;font-size:1.4rem;font-weight:700;text-transform:uppercase;color:var(--navy);margin-bottom:0.5rem}
+.sc-desc{font-size:0.85rem;color:var(--muted);margin-bottom:1.25rem;line-height:1.6}
+.sc-price{font-family:'Barlow Condensed',sans-serif;font-size:1.6rem;font-weight:700;color:var(--blue)}
+.sc-price-sub{font-family:'DM Sans',sans-serif;font-size:0.75rem;color:var(--muted);font-weight:400}
+.sc-list{list-style:none;margin-top:1rem;display:flex;flex-direction:column;gap:0.4rem}
+.sc-list li{font-size:0.82rem;color:var(--muted);display:flex;align-items:center;gap:6px}
+.sc-list li::before{content:'✓';color:var(--blue);font-weight:700;font-size:0.8rem}
+
+/* TARIFS */
+.tarifs{background:var(--gray)}
+.tarifs-tabs{display:flex;gap:0.5rem;margin-bottom:2rem;background:var(--white);border:1px solid var(--border);border-radius:10px;padding:4px;width:fit-content}
+.tab-btn{padding:0.5rem 1.25rem;border-radius:7px;border:none;background:transparent;font-family:'DM Sans',sans-serif;font-size:0.85rem;font-weight:500;cursor:pointer;color:var(--muted);transition:all 0.2s}
+.tab-btn.active{background:var(--navy);color:var(--white)}
+.tarif-table{width:100%;border-collapse:collapse;background:var(--white);border-radius:12px;overflow:hidden;border:1px solid var(--border)}
+.tarif-table th{background:var(--navy);color:rgba(255,255,255,0.7);font-family:'Barlow Condensed',sans-serif;font-size:0.85rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;padding:1rem 1.25rem;text-align:left}
+.tarif-table td{padding:0.85rem 1.25rem;font-size:0.88rem;border-bottom:1px solid var(--border)}
+.tarif-table tr:last-child td{border-bottom:none}
+.tarif-table tr:nth-child(even) td{background:#f9fafb}
+.price-cell{font-family:'Barlow Condensed',sans-serif;font-size:1.1rem;font-weight:600;color:var(--blue)}
+.pro-badge{font-size:0.65rem;background:#fff3cd;color:#856404;border:1px solid #ffc107;padding:2px 8px;border-radius:100px;font-weight:600}
+
+/* ZONE */
+.zone-section{background:var(--navy);color:var(--white)}
+.zone-section .section-title{color:var(--white)}
+.zone-section .section-tag{color:var(--gold)}
+.zone-inner{display:grid;grid-template-columns:1.2fr 1fr;gap:4rem;align-items:center}
+.zone-map{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);border-radius:16px;height:320px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.zone-map-label{font-family:'Barlow Condensed',sans-serif;font-size:1.1rem;font-weight:600;color:rgba(255,255,255,0.3);text-transform:uppercase;letter-spacing:2px}
+.zone-map-dot{position:absolute;width:12px;height:12px;background:var(--gold);border-radius:50%;top:50%;left:50%;transform:translate(-50%,-50%);box-shadow:0 0 0 8px rgba(232,160,32,0.15),0 0 0 20px rgba(232,160,32,0.07)}
+.zone-list{display:flex;flex-direction:column;gap:1rem;margin-top:2rem}
+.zone-item{display:flex;align-items:center;gap:12px;font-size:0.9rem;color:rgba(255,255,255,0.7)}
+.zone-item::before{content:'→';color:var(--gold);font-weight:700}
+
+/* TEMOIGNAGES */
+.temoignages-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:3rem}
+.temoignage-card{border:1px solid var(--border);border-radius:14px;padding:1.75rem;background:var(--white)}
+.stars{color:var(--gold);font-size:1rem;letter-spacing:2px;margin-bottom:1rem}
+.temoignage-text{font-size:0.88rem;color:var(--muted);line-height:1.7;font-style:italic;margin-bottom:1.25rem}
+.temoignage-author{font-weight:500;font-size:0.85rem;color:var(--navy)}
+.temoignage-type{font-size:0.75rem;color:var(--muted)}
+
+/* CONTACT */
+.contact-section{background:var(--gray)}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start}
+.contact-info{display:flex;flex-direction:column;gap:1.5rem}
+.contact-item{display:flex;align-items:flex-start;gap:1rem}
+.ci-icon{width:40px;height:40px;background:var(--navy);color:var(--white);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0}
+.ci-label{font-size:0.75rem;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin-bottom:0.15rem}
+.ci-value{font-size:0.9rem;font-weight:500}
+.contact-form{background:var(--white);border:1px solid var(--border);border-radius:16px;padding:2rem;display:flex;flex-direction:column;gap:1rem}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.form-group{display:flex;flex-direction:column;gap:0.4rem}
+.form-group label{font-size:0.8rem;font-weight:500;color:var(--navy)}
+.form-group input,.form-group select,.form-group textarea{border:1px solid var(--border);border-radius:8px;padding:0.7rem 1rem;font-family:'DM Sans',sans-serif;font-size:0.88rem;color:var(--text);background:var(--white);transition:border-color 0.2s;outline:none;width:100%}
+.form-group input:focus,.form-group select:focus,.form-group textarea:focus{border-color:var(--blue)}
+.form-group textarea{resize:vertical;min-height:100px}
+.btn-submit{background:var(--blue);color:var(--white);border:none;padding:0.9rem 2rem;border-radius:8px;font-family:'DM Sans',sans-serif;font-size:0.95rem;font-weight:500;cursor:pointer;transition:background 0.2s;width:100%}
+.btn-submit:hover{background:var(--blue-light)}
+
+/* FOOTER */
+footer{background:var(--navy);color:rgba(255,255,255,0.5);padding:3rem 5%;font-size:0.82rem}
+.footer-inner{max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:2rem;flex-wrap:wrap}
+.footer-logo{font-family:'Barlow Condensed',sans-serif;font-size:1.2rem;font-weight:800;color:var(--white)}
+.footer-logo span{color:var(--gold)}
+.footer-links{display:flex;gap:1.5rem}
+.footer-links a{color:rgba(255,255,255,0.4);transition:color 0.2s}
+.footer-links a:hover{color:var(--white)}
+
+/* FLOATING CTA */
+.float-cta{position:fixed;bottom:2rem;right:2rem;z-index:99;background:var(--gold);color:var(--navy);padding:0.85rem 1.5rem;border-radius:100px;font-weight:700;font-size:0.9rem;font-family:'Barlow Condensed',sans-serif;letter-spacing:0.5px;text-transform:uppercase;box-shadow:0 4px 20px rgba(232,160,32,0.35);transition:all 0.2s;display:flex;align-items:center;gap:8px}
+.float-cta:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(232,160,32,0.45)}
+.float-cta::before{content:'📞';font-size:1rem}
+
+@media(max-width:860px){
+  .nav-links{display:none}
+  .hero-inner,.about-grid,.zone-inner,.contact-grid{grid-template-columns:1fr}
+  .services-grid,.temoignages-grid{grid-template-columns:1fr}
+  .hero-stats{gap:1.5rem}
+  .form-row{grid-template-columns:1fr}
+  .reservation-grid{grid-template-columns:1fr !important}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">Clean<span>Pro</span> Nîmes</div>
+  <ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#tarifs">Tarifs</a></li>
+    <li><a href="#zone">Zone</a></li>
+    <li><a href="#avis">Avis</a></li>
+    <li><a href="https://calendly.com/cleanpronimes" target="_blank" class="nav-cta">Réserver</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <div class="hero-badge">Nîmes & 30 km alentours · Gard</div>
+      <h1>Expert<br><em>Nettoyage</em><br>Auto & Textile</h1>
+      <p class="hero-sub">Je me déplace chez vous ou sur votre site professionnel. Résultats garantis, produits professionnels, devis gratuit sous 24h.</p>
+      <div class="hero-btns">
+        <a href="https://calendly.com/cleanpronimes" target="_blank" class="btn-primary">Réserver en ligne</a>
+        <a href="#tarifs" class="btn-ghost">Voir les tarifs</a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="hero-stat-num">100<span>%</span></div>
+          <div class="hero-stat-lbl">Déplacement à domicile</div>
+        </div>
+        <div>
+          <div class="hero-stat-num">48<span>h</span></div>
+          <div class="hero-stat-lbl">Délai de réponse</div>
+        </div>
+        <div>
+          <div class="hero-stat-num">2<span>en1</span></div>
+          <div class="hero-stat-lbl">Auto + Textile</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <div class="hero-card-title">Prestations phares</div>
+      <div class="service-item">
+        <span class="service-name">Nettoyage express</span>
+        <span class="service-price">dès 40 €</span>
+      </div>
+      <div class="service-item">
+        <span class="service-name">Nettoyage intérieur complet</span>
+        <span class="service-price">dès 80 €</span>
+      </div>
+      <div class="service-item">
+        <span class="service-name">Canapé 3 places</span>
+        <span class="service-price">80 – 110 €</span>
+      </div>
+      <div class="service-item">
+        <span class="service-name">Matelas (simple/double/king)</span>
+        <span class="service-price">40 – 90 €</span>
+      </div>
+      <div style="margin-top:1.5rem">
+        <a href="https://calendly.com/cleanpronimes" target="_blank" class="btn-primary" style="width:100%;text-align:center;display:block">Réserver en ligne →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- POURQUOI -->
+<section class="about">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-text">
+        <div>
+          <div class="section-tag">Pourquoi me choisir</div>
+          <h2 class="section-title">Un résultat<br>professionnel,<br>chez vous.</h2>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">🚗</div>
+          <div>
+            <div class="feature-title">Je me déplace</div>
+            <div class="feature-desc">Aucun déplacement de votre côté. J'interviens à domicile, en entreprise ou sur votre site.</div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">⚙️</div>
+          <div>
+            <div class="feature-title">Matériel professionnel</div>
+            <div class="feature-desc">Injecteur-extracteur, ozoniseur, produits professionnels. Résultats impossibles à obtenir avec du matériel grand public.</div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">💼</div>
+          <div>
+            <div class="feature-title">Pros & particuliers</div>
+            <div class="feature-desc">Garages, concessionnaires, loueurs de véhicules : tarifs contrats sur volume. Particuliers : devis sur mesure.</div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">✅</div>
+          <div>
+            <div class="feature-title">Assuré RC Pro</div>
+            <div class="feature-desc">Intervention couverte par une assurance responsabilité civile professionnelle. Sérénité garantie.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-visual">
+        <div class="av-label">Satisfaction client par prestation</div>
+        <div class="av-item">
+          <div class="av-item-top"><span class="av-item-name">Nettoyage automobile</span><span class="av-item-pct">98%</span></div>
+          <div class="av-bar"><div class="av-fill" style="width:98%"></div></div>
+        </div>
+        <div class="av-item">
+          <div class="av-item-top"><span class="av-item-name">Shampooing textile</span><span class="av-item-pct">97%</span></div>
+          <div class="av-bar"><div class="av-fill" style="width:97%"></div></div>
+        </div>
+        <div class="av-item">
+          <div class="av-item-top"><span class="av-item-name">Traitement cuir</span><span class="av-item-pct">95%</span></div>
+          <div class="av-bar"><div class="av-fill" style="width:95%"></div></div>
+        </div>
+        <div class="av-item">
+          <div class="av-item-top"><span class="av-item-name">Prestations pro (VO)</span><span class="av-item-pct">99%</span></div>
+          <div class="av-bar"><div class="av-fill" style="width:99%"></div></div>
+        </div>
+        <div style="margin-top:2rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,0.08)">
+          <div style="font-size:0.75rem;color:rgba(255,255,255,0.35);text-transform:uppercase;letter-spacing:1px;margin-bottom:0.5rem">Réponse devis</div>
+          <div style="font-family:'Barlow Condensed',sans-serif;font-size:2rem;font-weight:700;color:#e8a020">Sous 24h</div>
+          <div style="font-size:0.8rem;color:rgba(255,255,255,0.4);margin-top:0.25rem">7j/7 · Intervention rapide</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="section-inner">
+    <div class="section-tag">Ce que je propose</div>
+    <h2 class="section-title">Services</h2>
+    <p class="section-sub">Deux expertises complémentaires, un seul interlocuteur, à votre domicile ou sur votre site.</p>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="sc-icon">🚗</div>
+        <div class="sc-title">Nettoyage Automobile</div>
+        <p class="sc-desc">Du nettoyage express à la remise en état complète en profondeur. Shampooing sièges, coffre, plastiques, vitres inclus selon formule.</p>
+        <div class="sc-price">Dès 40 € <span class="sc-price-sub">/ intervention</span></div>
+        <ul class="sc-list">
+          <li>Express : aspiration + essuyage rapide</li>
+          <li>Complet tissu : shampooing sièges, coffre, moquette</li>
+          <li>Complet cuir : même prestation + nourrissage cuir inclus</li>
+          <li>Ozonisation (en complément)</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <div class="sc-icon">🛋️</div>
+        <div class="sc-title">Textile à Domicile</div>
+        <p class="sc-desc">Canapés, fauteuils, matelas toutes tailles, moquettes et tapis. Machine à shampoineuse professionnelle pour un résultat en profondeur.</p>
+        <div class="sc-price">Dès 30 € <span class="sc-price-sub">/ pièce</span></div>
+        <ul class="sc-list">
+          <li>Canapés toutes tailles</li>
+          <li>Fauteuils & chaises</li>
+          <li>Matelas simple, double, king size</li>
+          <li>Moquettes & tapis</li>
+          <li>Textiles hôteliers</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <div class="sc-icon">🏢</div>
+        <div class="sc-title">Contrats Professionnels</div>
+        <p class="sc-desc">Garages, concessionnaires, loueurs : tarifs préférentiels sur volume, intervention planifiée, facturation mensuelle.</p>
+        <div class="sc-price">Sur devis <span class="sc-price-sub">/ contrat</span></div>
+        <ul class="sc-list">
+          <li>Nettoyage intérieur complet régulier</li>
+          <li>Flottes automobiles</li>
+          <li>Hôtels & gîtes (textile)</li>
+          <li>Sociétés de location</li>
+          <li>Remise 10–15 % sur volume</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TARIFS -->
+<section id="tarifs" class="tarifs">
+  <div class="section-inner">
+    <div class="section-tag">Grille tarifaire</div>
+    <h2 class="section-title">Tarifs</h2>
+    <p class="section-sub" style="margin-bottom:2rem">Tarifs indicatifs TTC. Devis gratuit et sans engagement pour tout projet spécifique.</p>
+
+    <div class="tarifs-tabs">
+      <button class="tab-btn active" onclick="showTab('auto',this)">Automobile</button>
+      <button class="tab-btn" onclick="showTab('textile',this)">Textile</button>
+    </div>
+
+    <div id="tab-auto">
+      <div style="background:var(--ice);border-left:3px solid var(--blue);border-radius:0 8px 8px 0;padding:0.75rem 1rem;margin-bottom:1.25rem;font-size:0.82rem;color:var(--navy)">
+        💡 <strong>Le tarif dépend du type de véhicule</strong> — plus le gabarit est grand, plus l'intervention est longue. Trouvez votre véhicule dans le tableau ci-dessous pour connaître votre tarif exact.
+      </div>
+      <div style="overflow-x:auto">
+        <table class="tarif-table" style="min-width:700px">
+          <thead>
+            <tr>
+              <th style="width:220px">Prestation</th>
+              <th style="text-align:center;font-size:0.78rem">🚗<br>Citadine<br><span style="font-weight:400;opacity:0.7;font-size:0.7rem">Clio, 208, C3...</span></th>
+              <th style="text-align:center;font-size:0.78rem">🚙<br>Berline / Coupé<br><span style="font-weight:400;opacity:0.7;font-size:0.7rem">308, Golf, A3...</span></th>
+              <th style="text-align:center;font-size:0.78rem">🚐<br>Monospace / Break<br><span style="font-weight:400;opacity:0.7;font-size:0.7rem">Scenic, 407 SW...</span></th>
+              <th style="text-align:center;font-size:0.78rem">🛻<br>SUV / 4x4<br><span style="font-weight:400;opacity:0.7;font-size:0.7rem">Kuga, Tiguan, Q5...</span></th>
+              <th style="text-align:center;font-size:0.78rem">🚚<br>Utilitaire / Van<br><span style="font-weight:400;opacity:0.7;font-size:0.7rem">Trafic, Transit...</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <strong>Nettoyage Express</strong>
+                <div style="font-size:0.75rem;color:var(--muted);margin-top:3px">Aspiration + essuyage plastiques + vitres</div>
+              </td>
+              <td class="price-cell" style="text-align:center">40 €</td>
+              <td class="price-cell" style="text-align:center">45 €</td>
+              <td class="price-cell" style="text-align:center">50 €</td>
+              <td class="price-cell" style="text-align:center">55 €</td>
+              <td class="price-cell" style="text-align:center">60 €</td>
+            </tr>
+            <tr>
+              <td>
+                <strong>Nettoyage Intérieur Complet — Tissu</strong>
+                <div style="font-size:0.75rem;color:var(--muted);margin-top:3px">Shampooing sièges + coffre + moquette + plastiques + vitres + joints</div>
+              </td>
+              <td class="price-cell" style="text-align:center">80 €</td>
+              <td class="price-cell" style="text-align:center">90 €</td>
+              <td class="price-cell" style="text-align:center">100 €</td>
+              <td class="price-cell" style="text-align:center">110 €</td>
+              <td class="price-cell" style="text-align:center">120 €</td>
+            </tr>
+            <tr style="background:#f0f7ff">
+              <td>
+                <strong>Nettoyage Intérieur Complet — Cuir</strong>
+                <span style="font-size:0.7rem;background:#dbeeff;color:#1a6fc4;border:1px solid #a8d1f5;padding:2px 8px;border-radius:100px;font-weight:600;margin-left:6px">Nourrissage inclus</span>
+                <div style="font-size:0.75rem;color:var(--muted);margin-top:3px">Même prestation + nourrissage cuir de tout l'habitacle après nettoyage</div>
+              </td>
+              <td class="price-cell" style="text-align:center">110 €</td>
+              <td class="price-cell" style="text-align:center">120 €</td>
+              <td class="price-cell" style="text-align:center">130 €</td>
+              <td class="price-cell" style="text-align:center">140 €</td>
+              <td class="price-cell" style="text-align:center">150 €</td>
+            </tr>
+            <tr style="background:#fef9ee">
+              <td>
+                <strong>➕ Ozonisation</strong>
+                <span style="font-size:0.7rem;background:#fff3cd;color:#856404;border:1px solid #ffc107;padding:2px 8px;border-radius:100px;font-weight:600;margin-left:4px">Complément</span>
+                <div style="font-size:0.75rem;color:var(--muted);margin-top:3px">Anti-odeurs tabac, animaux, humidité</div>
+              </td>
+              <td class="price-cell" style="text-align:center;color:#e8a020">+ 30 €</td>
+              <td class="price-cell" style="text-align:center;color:#e8a020">+ 30 €</td>
+              <td class="price-cell" style="text-align:center;color:#e8a020">+ 30 €</td>
+              <td class="price-cell" style="text-align:center;color:#e8a020">+ 35 €</td>
+              <td class="price-cell" style="text-align:center;color:#e8a020">+ 40 €</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="display:flex;gap:1rem;margin-top:1rem;flex-wrap:wrap;align-items:center">
+        <a href="VOTRE_LIEN_VIDEO" target="_blank" style="display:inline-flex;align-items:center;gap:8px;background:var(--navy);color:white;padding:0.65rem 1.25rem;border-radius:8px;font-size:0.85rem;font-weight:500;text-decoration:none;transition:background 0.2s" onmouseover="this.style.background='var(--blue)'" onmouseout="this.style.background='var(--navy)'">
+          ▶ Voir une démonstration en vidéo
+        </a>
+        <span style="font-size:0.78rem;color:var(--muted)">Vous ne savez pas dans quelle catégorie se trouve votre véhicule ? <a href="tel:+33778577648" style="color:var(--blue)">Appelez-moi</a>, je vous confirme le tarif en 2 minutes.</span>
+      </div>
+    </div>
+
+    <div id="tab-textile" style="display:none">
+      <div style="background:var(--ice);border-left:3px solid var(--blue);border-radius:0 8px 8px 0;padding:0.75rem 1rem;margin-bottom:1rem;font-size:0.82rem;color:var(--navy)">
+        💡 <strong>Comment se fait la différence de prix ?</strong> Elle dépend de la taille de la pièce, de la nature du tissu et du niveau d'encrassement. Le tarif exact est confirmé sur photo ou sur place.
+      </div>
+      <table class="tarif-table">
+        <thead><tr><th>Prestation</th><th>Ce qui est inclus</th><th>Tarif TTC</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><strong>Canapé 2 places</strong></td>
+            <td style="font-size:0.82rem;color:var(--muted)">Shampooing en profondeur assises + dossiers + accoudoirs</td>
+            <td class="price-cell">60 – 80 €</td>
+          </tr>
+          <tr>
+            <td><strong>Canapé 3 places</strong></td>
+            <td style="font-size:0.82rem;color:var(--muted)">Shampooing en profondeur assises + dossiers + accoudoirs</td>
+            <td class="price-cell">80 – 110 €</td>
+          </tr>
+          <tr>
+            <td><strong>Canapé d'angle</strong></td>
+            <td style="font-size:0.82rem;color:var(--muted)">Shampooing complet toutes surfaces</td>
+            <td class="price-cell">110 – 150 €</td>
+          </tr>
+          <tr>
+            <td><strong>Fauteuil</strong></td>
+            <td style="font-size:0.82rem;color:var(--muted)">Shampooing assise + dossier + accoudoirs</td>
+            <td class="price-cell">30 – 50 €</td>
+          </tr>
+          <tr>
+            <td><strong>Matelas 1 personne</strong> <span style="font-size:0.7rem;color:var(--muted)">(90×190)</span></td>
+            <td style="font-size:0.82rem;color:var(--muted)">Shampooing recto verso + traitement anti-acariens</td>
+            <td class="price-cell">40 – 55 €</td>
+          </tr>
+          <tr>
+            <td><strong>Matelas 2 personnes</strong> <span style="font-size:0.7rem;color:var(--muted)">(140×190 / 160×200)</span></td>
+            <td style="font-size:0.82rem;color:var(--muted)">Shampooing recto verso + traitement anti-acariens</td>
+            <td class="price-cell">60 – 75 €</td>
+          </tr>
+          <tr>
+            <td><strong>Matelas King Size</strong> <span style="font-size:0.7rem;color:var(--muted)">(180×200 et +)</span></td>
+            <td style="font-size:0.82rem;color:var(--muted)">Shampooing recto verso + traitement anti-acariens</td>
+            <td class="price-cell">80 – 90 €</td>
+          </tr>
+          <tr>
+            <td><strong>Moquette</strong></td>
+            <td style="font-size:0.82rem;color:var(--muted)">Shampooing au m², déplacement de petits meubles inclus</td>
+            <td class="price-cell">4 – 7 €/m²</td>
+          </tr>
+          <tr>
+            <td><strong>Tapis (petit, < 4 m²)</strong></td>
+            <td style="font-size:0.82rem;color:var(--muted)">Shampooing recto verso sur place</td>
+            <td class="price-cell">25 – 45 €</td>
+          </tr>
+        </tbody>
+      </table>
+      <div style="margin-top:1rem">
+        <a href="VOTRE_LIEN_VIDEO" target="_blank" style="display:inline-flex;align-items:center;gap:8px;background:var(--navy);color:white;padding:0.65rem 1.25rem;border-radius:8px;font-size:0.85rem;font-weight:500;text-decoration:none;transition:background 0.2s" onmouseover="this.style.background='var(--blue)'" onmouseout="this.style.background='var(--navy)'">
+          ▶ Voir une démonstration en vidéo
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ZONE -->
+<section id="zone" class="zone-section">
+  <div class="section-inner">
+    <div class="zone-inner">
+      <div>
+        <div class="section-tag">Zone d'intervention</div>
+        <h2 class="section-title" style="color:white">Nîmes<br>& alentours</h2>
+        <p style="color:rgba(255,255,255,0.55);font-size:0.95rem;margin:1rem 0 2rem;font-weight:300">J'interviens sur Nîmes et dans un rayon de 30 km environ, sans supplément de déplacement dans la zone.</p>
+        <div class="zone-list">
+          <div class="zone-item">Nîmes (centre, Carémeau, Pissevin, Valdegour…)</div>
+          <div class="zone-item">Alès, Bagnols-sur-Cèze</div>
+          <div class="zone-item">Marguerittes, Caissargues, Milhaud</div>
+          <div class="zone-item">Saint-Gilles, Vauvert</div>
+          <div class="zone-item">Beaucaire, Remoulins</div>
+          <div class="zone-item">Lunel, Sommières (Hérault)</div>
+        </div>
+        <p style="color:rgba(255,255,255,0.35);font-size:0.78rem;margin-top:1.5rem">Déplacement hors zone : supplément selon distance, sur devis.</p>
+      </div>
+      <div class="zone-map">
+        <div class="zone-map-dot"></div>
+        <div class="zone-map-label" style="margin-top:80px">Nîmes · 30</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AVIS -->
+<section id="avis">
+  <div class="section-inner">
+    <div class="section-tag">Témoignages</div>
+    <h2 class="section-title">Ils me font confiance</h2>
+    <div class="temoignages-grid">
+      <div class="temoignage-card">
+        <div class="stars">★★★★★</div>
+        <p class="temoignage-text">"Résultat bluffant sur mon canapé en tissu gris. Des taches de plusieurs années ont disparu. Je recommande vraiment, très professionnel et ponctuel."</p>
+        <div class="temoignage-author">Marie L.</div>
+        <div class="temoignage-type">Particulière · Nîmes</div>
+      </div>
+      <div class="temoignage-card">
+        <div class="stars">★★★★★</div>
+        <p class="temoignage-text">"Intérieur de ma voiture complètement transformé, les sièges sont comme neufs. Très sérieux, ponctuel et prix correct. Je referai appel à lui sans hésiter."</p>
+        <div class="temoignage-author">Thomas R.</div>
+        <div class="temoignage-type">Particulier · Nîmes</div>
+      </div>
+      <div class="temoignage-card">
+        <div class="stars">★★★★★</div>
+        <p class="temoignage-text">"Ma voiture sentait la cigarette depuis des années. Après l'ozonisation et le nettoyage complet, elle sent le neuf. Service rapide et prix honnêtes."</p>
+        <div class="temoignage-author">Karim B.</div>
+        <div class="temoignage-type">Particulier · Alès</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESERVATION -->
+<section id="contact" class="contact-section">
+  <div class="section-inner">
+    <div class="section-tag">Prise de rendez-vous en ligne</div>
+    <h2 class="section-title">Réservez votre<br>créneau</h2>
+    <p style="color:var(--muted);font-size:0.9rem;font-weight:300;margin:0.75rem 0 2.5rem;max-width:500px;line-height:1.7">Choisissez votre prestation, votre date et votre heure. Confirmation automatique par email.</p>
+    <div style="display:grid;grid-template-columns:1fr 2fr;gap:3rem;align-items:start" class="reservation-grid">
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="ci-icon">📞</div>
+          <div>
+            <div class="ci-label">Téléphone</div>
+            <div class="ci-value"><a href="tel:+33778577648" style="color:inherit" onclick="if(typeof fbq!=='undefined')fbq('track','Contact')">07 78 57 76 48</a></div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ci-icon">📧</div>
+          <div>
+            <div class="ci-label">Email</div>
+            <div class="ci-value"><a href="mailto:cleanpronimes@gmail.com" style="color:inherit">cleanpronimes@gmail.com</a></div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ci-icon">🕐</div>
+          <div>
+            <div class="ci-label">Disponibilité</div>
+            <div class="ci-value">Lun – Sam · 8h – 19h</div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ci-icon">📍</div>
+          <div>
+            <div class="ci-label">Zone</div>
+            <div class="ci-value">Nîmes & 30 km alentours</div>
+          </div>
+        </div>
+        <div style="background:var(--ice);border-radius:12px;padding:1.25rem;margin-top:0.5rem">
+          <div style="font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:var(--blue);margin-bottom:0.5rem">Confirmation</div>
+          <div style="font-size:0.82rem;color:var(--muted);line-height:1.6">Vous recevrez une confirmation par email immédiatement après votre réservation.</div>
+        </div>
+      </div>
+
+      <div style="background:var(--white);border:1px solid var(--border);border-radius:16px;overflow:hidden;min-height:600px">
+        <div class="calendly-inline-widget" data-url="https://calendly.com/cleanpronimes?hide_gdpr_banner=1&primary_color=1a6fc4" style="min-width:280px;height:650px"></div>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo">Clean<span>Pro</span> Nîmes</div>
+      <div style="margin-top:0.4rem">Nettoyage Automobile & Textile · Gard (30)</div>
+    </div>
+    <div class="footer-links">
+      <a href="#services">Services</a>
+      <a href="#tarifs">Tarifs</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div style="font-size:0.78rem">© 2026 CleanPro Nîmes · Auto-entrepreneur · RC Pro assurée</div>
+  </div>
+</footer>
+
+<!-- FLOATING CTA -->
+<a href="tel:+33778577648" class="float-cta" onclick="if(typeof fbq!=='undefined')fbq('track','Contact')">Appeler</a>
+
+<script>
+function showTab(tab, btn) {
+  document.getElementById('tab-auto').style.display = tab === 'auto' ? '' : 'none';
+  document.getElementById('tab-textile').style.display = tab === 'textile' ? '' : 'none';
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+}
+
+/* ====== BOOKING ENGINE ====== */
+const BK_SERVICES = [
+  {id:'netto-express', icon:'⚡', name:'Nettoyage Express', price:'40 – 60 €', dur:'45 min', desc:'Aspiration + essuyage plastiques + vitres'},
+  {id:'netto-complet-tissu', icon:'🚗', name:'Nettoyage Complet — Tissu', price:'80 – 120 €', dur:'1h30 – 2h30', desc:'Shampooing sièges + coffre + moquette + plastiques + vitres'},
+  {id:'netto-complet-cuir', icon:'🪑', name:'Nettoyage Complet — Cuir', price:'110 – 150 €', dur:'2h – 3h', desc:'Même prestation + nourrissage cuir de tout l\'habitacle inclus'},
+  {id:'ozone', icon:'🌬️', name:'Ozonisation (complément)', price:'+ 30 €', dur:'+ 45 min', desc:'Anti-odeurs tabac, animaux, humidité'},
+  {id:'canape-2', icon:'🛋️', name:'Canapé 2 places', price:'60 – 80 €', dur:'45 min', desc:'Shampooing assises + dossiers + accoudoirs'},
+  {id:'canape-3', icon:'🛋️', name:'Canapé 3 places', price:'80 – 110 €', dur:'1h', desc:'Shampooing assises + dossiers + accoudoirs'},
+  {id:'canape-angle', icon:'🛋️', name:"Canapé d'angle", price:'110 – 150 €', dur:'1h30', desc:'Shampooing complet toutes surfaces'},
+  {id:'fauteuil', icon:'💺', name:'Fauteuil', price:'30 – 50 €', dur:'30 min', desc:'Shampooing assise + dossier + accoudoirs'},
+  {id:'matelas-1p', icon:'🛏️', name:'Matelas 1 personne', price:'40 – 55 €', dur:'45 min', desc:'Recto verso + anti-acariens (90×190)'},
+  {id:'matelas-2p', icon:'🛏️', name:'Matelas 2 personnes', price:'60 – 75 €', dur:'45 min', desc:'Recto verso + anti-acariens (140/160×200)'},
+  {id:'matelas-king', icon:'🛏️', name:'Matelas King Size', price:'80 – 90 €', dur:'1h', desc:'Recto verso + anti-acariens (180×200 et +)'},
+  {id:'moquette', icon:'🏠', name:'Moquette / Tapis', price:'4 – 7 €/m²', dur:'Selon surface', desc:'Shampooing au m², devis sur mesure'},
+];
+const BK_SLOTS = ['08:00','09:00','10:00','11:00','13:00','14:00','15:00','16:00','17:00'];
+const BK_TAKEN = {'3':['08:00','10:00','14:00'],'7':['09:00','11:00','15:00'],'10':['08:00','09:00','13:00'],'14':['10:00','14:00','16:00'],'17':['08:00','11:00','15:00']};
+let bkSrv=null, bkDay=null, bkSlot=null, bkYear, bkMonth;
+
+function bkInit(){
+  const now = new Date();
+  bkYear = now.getFullYear(); bkMonth = now.getMonth();
+  const g = document.getElementById('bk-srvgrid');
+  if(!g) return;
+  g.innerHTML = BK_SERVICES.map(s => `
+    <div onclick="bkSelSrv('${s.id}')" id="bksrv_${s.id}" style="border:1px solid var(--border);border-radius:10px;padding:0.85rem;cursor:pointer;transition:all 0.15s">
+      <div style="font-size:1.2rem;margin-bottom:6px">${s.icon}</div>
+      <div style="font-size:0.8rem;font-weight:500;color:var(--navy);margin-bottom:2px">${s.name}</div>
+      <div style="font-size:0.72rem;color:var(--muted);margin-bottom:4px;line-height:1.4">${s.desc}</div>
+      <div style="font-size:0.75rem;color:var(--blue);font-weight:600">${s.price}</div>
+      <div style="font-size:0.7rem;color:var(--muted);margin-top:2px">⏱ ${s.dur}</div>
+    </div>`).join('');
+  bkRenderCal();
+}
+
+function bkSelSrv(id){
+  bkSrv = BK_SERVICES.find(s => s.id === id);
+  document.querySelectorAll('[id^="bksrv_"]').forEach(el => { el.style.border='1px solid var(--border)'; el.style.background=''; });
+  const el = document.getElementById('bksrv_'+id);
+  el.style.border = '2px solid var(--blue)'; el.style.background = 'var(--ice)';
+  const btn = document.getElementById('bk-btn1');
+  btn.disabled = false; btn.style.opacity = '1';
+}
+
+function bkGoStep(n){
+  [1,2,3,4,5].forEach(i => { const p=document.getElementById('bkp'+i); if(p) p.style.display = i===n?'block':'none'; });
+  [1,2,3,4].forEach(i => {
+    const s = document.getElementById('bks'+i);
+    if(!s) return;
+    if(i < n){ s.style.color='#27ae60'; s.style.borderBottom='2px solid #27ae60'; }
+    else if(i === n){ s.style.color='var(--blue)'; s.style.borderBottom='2px solid var(--blue)'; }
+    else{ s.style.color='var(--muted)'; s.style.borderBottom='2px solid var(--border)'; }
+  });
+}
+
+function bkRenderCal(){
+  const months=['Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'];
+  const days=['Lun','Mar','Mer','Jeu','Ven','Sam','Dim'];
+  const ct = document.getElementById('bk-caltitle');
+  if(ct) ct.textContent = months[bkMonth]+' '+bkYear;
+  const g = document.getElementById('bk-calgrid');
+  if(!g) return;
+  const now = new Date(); now.setHours(0,0,0,0);
+  const first = new Date(bkYear, bkMonth, 1);
+  let startDow = first.getDay(); startDow = (startDow+6)%7;
+  const dim = new Date(bkYear, bkMonth+1, 0).getDate();
+  let html = days.map(d=>`<div style="text-align:center;font-size:0.7rem;color:var(--muted);padding:4px 0;font-weight:500">${d}</div>`).join('');
+  for(let i=0;i<startDow;i++) html+=`<div></div>`;
+  for(let d=1;d<=dim;d++){
+    const dt=new Date(bkYear,bkMonth,d);
+    const dow=dt.getDay();
+    const isPast=dt<now, isSun=dow===0;
+    const isSel=bkDay===d&&!isPast&&!isSun;
+    const isToday=dt.getTime()===now.getTime();
+    const style=isPast||isSun
+      ? 'color:var(--muted);opacity:0.35;cursor:default'
+      : isSel
+        ? 'background:var(--ice);color:var(--blue);border:2px solid var(--blue);font-weight:500;cursor:pointer'
+        : isToday
+          ? 'color:var(--blue);font-weight:500;cursor:pointer;border:1px solid var(--border)'
+          : 'cursor:pointer;border:1px solid transparent';
+    html+=`<div onclick="${!isPast&&!isSun?`bkPickDay(${d})`:''}" style="text-align:center;padding:7px 2px;border-radius:7px;font-size:0.82rem;${style}">${d}</div>`;
+  }
+  g.innerHTML=html;
+}
+
+function bkPickDay(d){
+  bkDay=d; bkSlot=null;
+  const btn=document.getElementById('bk-btn2'); btn.disabled=true; btn.style.opacity='0.4';
+  bkRenderCal();
+  const months=['jan','fév','mar','avr','mai','jun','juil','aoû','sep','oct','nov','déc'];
+  const st=document.getElementById('bk-slotstitle');
+  if(st) st.textContent='Créneaux – '+d+' '+months[bkMonth]+' '+bkYear;
+  const dateStr=bkYear+'-'+String(bkMonth+1).padStart(2,'0')+'-'+String(d).padStart(2,'0');
+  const adminBlocked=(typeof blockedSlots!=='undefined'&&blockedSlots[dateStr])||[];
+  const taken=(BK_TAKEN[String(d)]||[]).concat(adminBlocked);
+  const sg=document.getElementById('bk-slotsgrid');
+  sg.innerHTML=BK_SLOTS.map(s=>{
+    const t=taken.includes(s);
+    return `<div onclick="${t?'':'bkPickSlot(\''+s+'\')'}" style="border:1px solid var(--border);border-radius:7px;padding:8px;text-align:center;font-size:0.82rem;${t?'color:var(--muted);text-decoration:line-through;opacity:0.4;cursor:default':'cursor:pointer;color:var(--navy)'}" id="bkslot_${s.replace(':','')}">${s}</div>`;
+  }).join('');
+  document.getElementById('bk-slots').style.display='block';
+}
+
+function bkPickSlot(s){
+  bkSlot=s;
+  document.querySelectorAll('[id^="bkslot_"]').forEach(el=>{el.style.background='';el.style.border='1px solid var(--border)';el.style.color='var(--navy)';});
+  const el=document.getElementById('bkslot_'+s.replace(':',''));
+  if(el){el.style.background='var(--ice)';el.style.border='2px solid var(--blue)';el.style.color='var(--blue)';}
+  const btn=document.getElementById('bk-btn2'); btn.disabled=false; btn.style.opacity='1';
+}
+
+function bkPrevMonth(){if(bkMonth===0){bkMonth=11;bkYear--;}else bkMonth--;bkDay=null;bkSlot=null;document.getElementById('bk-slots').style.display='none';const btn=document.getElementById('bk-btn2');btn.disabled=true;btn.style.opacity='0.4';bkRenderCal();}
+function bkNextMonth(){if(bkMonth===11){bkMonth=0;bkYear++;}else bkMonth++;bkDay=null;bkSlot=null;document.getElementById('bk-slots').style.display='none';const btn=document.getElementById('bk-btn2');btn.disabled=true;btn.style.opacity='0.4';bkRenderCal();}
+
+function bkGoRecap(){
+  const p=document.getElementById('bk_prenom').value;
+  const n=document.getElementById('bk_nom').value;
+  const t=document.getElementById('bk_tel').value;
+  const e=document.getElementById('bk_email').value;
+  const a=document.getElementById('bk_adresse').value;
+  if(!p||!n||!t||!e||!a){alert('Merci de remplir tous les champs obligatoires.');return;}
+  const months=['jan','fév','mar','avr','mai','jun','juil','aoû','sep','oct','nov','déc'];
+  document.getElementById('bk-recap').innerHTML=`
+    <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid var(--border)"><span style="color:var(--muted)">Prestation</span><span>${bkSrv.name}</span></div>
+    <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid var(--border)"><span style="color:var(--muted)">Date</span><span>${bkDay} ${months[bkMonth]} ${bkYear} à ${bkSlot}</span></div>
+    <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid var(--border)"><span style="color:var(--muted)">Adresse</span><span>${a}</span></div>
+    <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid var(--border)"><span style="color:var(--muted)">Contact</span><span>${p} ${n} · ${t}</span></div>
+    <div style="display:flex;justify-content:space-between;padding:6px 0;font-weight:500"><span style="color:var(--muted)">Tarif indicatif</span><span style="color:var(--blue)">${bkSrv.price}</span></div>`;
+  bkGoStep(4);
+}
+
+async function bkConfirm(){
+  const months=['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+  const moisCourt=['jan','fév','mar','avr','mai','jun','juil','aoû','sep','oct','nov','déc'];
+  const prenom=document.getElementById('bk_prenom').value;
+  const nom=document.getElementById('bk_nom').value;
+  const tel=document.getElementById('bk_tel').value;
+  const email=document.getElementById('bk_email').value;
+  const adresse=document.getElementById('bk_adresse').value;
+  const note=document.getElementById('bk_note').value;
+  const dateStr=bkDay+' '+months[bkMonth]+' '+bkYear+' à '+bkSlot;
+
+  const btn=document.querySelector('#bkp4 .btn-submit');
+  btn.textContent='Envoi en cours…'; btn.disabled=true;
+
+  try {
+    await fetch('https://formspree.io/f/xpqezvan', {
+      method:'POST',
+      headers:{'Content-Type':'application/json','Accept':'application/json'},
+      body: JSON.stringify({
+        _subject: '🗓️ Nouvelle réservation – '+bkSrv.name+' – '+bkDay+' '+moisCourt[bkMonth],
+        Prestation: bkSrv.name,
+        Tarif: bkSrv.price,
+        Date: dateStr,
+        Adresse: adresse,
+        Prénom: prenom,
+        Nom: nom,
+        Téléphone: tel,
+        Email: email,
+        Informations: note||'—'
+      })
+    });
+  } catch(e){ console.warn('Formspree error', e); }
+
+  document.getElementById('bk-successmsg').innerHTML=`Merci <strong>${prenom}</strong> !<br>Votre demande pour <strong>${bkSrv.name}</strong> le <strong>${dateStr}</strong> a bien été envoyée.<br><br>Vous recevrez une confirmation par SMS ou email dans les prochaines heures.`;
+  if(typeof fbq!=='undefined') fbq('track','Lead');
+  bkGoStep(5);
+}
+
+document.addEventListener('DOMContentLoaded', bkInit);
+</script>
+<!-- PANNEAU ADMIN (accès via ?admin=1 dans l'URL) -->
+<div id="admin-panel" style="display:none;position:fixed;inset:0;z-index:999;background:rgba(0,0,0,0.5);overflow-y:auto">
+  <div style="background:white;max-width:700px;margin:2rem auto;border-radius:16px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,0.3)">
+    <div style="background:var(--navy);padding:1.25rem 1.5rem;display:flex;justify-content:space-between;align-items:center">
+      <div style="color:white;font-family:'Barlow Condensed',sans-serif;font-size:1.3rem;font-weight:700">⚙️ Administration CleanPro</div>
+      <button onclick="closeAdmin()" style="background:rgba(255,255,255,0.1);border:none;color:white;padding:6px 12px;border-radius:6px;cursor:pointer;font-size:0.85rem">✕ Fermer</button>
+    </div>
+
+    <div style="padding:1.5rem;display:flex;flex-direction:column;gap:1.5rem">
+
+      <!-- CRENEAUX BLOQUES -->
+      <div>
+        <div style="font-size:0.9rem;font-weight:600;color:var(--navy);margin-bottom:0.75rem;padding-bottom:0.5rem;border-bottom:1px solid var(--border)">🚫 Bloquer des créneaux</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:1rem">
+          <div>
+            <label style="font-size:0.75rem;color:var(--muted);font-weight:500">Date</label>
+            <input type="date" id="adm-date" style="width:100%;border:1px solid var(--border);border-radius:7px;padding:7px 10px;font-size:0.85rem;margin-top:4px">
+          </div>
+          <div>
+            <label style="font-size:0.75rem;color:var(--muted);font-weight:500">Créneau</label>
+            <select id="adm-slot" style="width:100%;border:1px solid var(--border);border-radius:7px;padding:7px 10px;font-size:0.85rem;margin-top:4px">
+              <option value="">Toute la journée</option>
+              <option>08:00</option><option>09:00</option><option>10:00</option><option>11:00</option>
+              <option>13:00</option><option>14:00</option><option>15:00</option><option>16:00</option><option>17:00</option>
+            </select>
+          </div>
+          <div style="display:flex;align-items:flex-end">
+            <button onclick="admBlock()" style="width:100%;background:var(--blue);color:white;border:none;border-radius:7px;padding:8px;font-size:0.85rem;cursor:pointer;font-weight:500">Bloquer</button>
+          </div>
+        </div>
+        <div id="adm-blocked-list" style="font-size:0.82rem;color:var(--muted)">Aucun créneau bloqué.</div>
+      </div>
+
+      <!-- MODIFIER INFOS -->
+      <div>
+        <div style="font-size:0.9rem;font-weight:600;color:var(--navy);margin-bottom:0.75rem;padding-bottom:0.5rem;border-bottom:1px solid var(--border)">✏️ Informations de contact</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+          <div>
+            <label style="font-size:0.75rem;color:var(--muted);font-weight:500">Téléphone</label>
+            <input type="tel" id="adm-tel" value="07 78 57 76 48" style="width:100%;border:1px solid var(--border);border-radius:7px;padding:7px 10px;font-size:0.85rem;margin-top:4px">
+          </div>
+          <div>
+            <label style="font-size:0.75rem;color:var(--muted);font-weight:500">Email</label>
+            <input type="email" id="adm-email" value="cleanpronimes@gmail.com" style="width:100%;border:1px solid var(--border);border-radius:7px;padding:7px 10px;font-size:0.85rem;margin-top:4px">
+          </div>
+        </div>
+        <div style="margin-top:10px">
+          <label style="font-size:0.75rem;color:var(--muted);font-weight:500">Lien vidéo de démonstration (YouTube, etc.)</label>
+          <input type="url" id="adm-video" placeholder="https://youtube.com/..." style="width:100%;border:1px solid var(--border);border-radius:7px;padding:7px 10px;font-size:0.85rem;margin-top:4px">
+        </div>
+        <button onclick="admSaveInfos()" style="margin-top:10px;background:var(--blue);color:white;border:none;border-radius:7px;padding:8px 20px;font-size:0.85rem;cursor:pointer;font-weight:500">Sauvegarder</button>
+        <span id="adm-save-msg" style="font-size:0.8rem;color:green;margin-left:10px;display:none">✓ Sauvegardé !</span>
+      </div>
+
+      <!-- INDISPO JOURNEE ENTIERE -->
+      <div>
+        <div style="font-size:0.9rem;font-weight:600;color:var(--navy);margin-bottom:0.75rem;padding-bottom:0.5rem;border-bottom:1px solid var(--border)">📅 Jours d'absence (journée entière)</div>
+        <div style="display:flex;gap:10px">
+          <input type="date" id="adm-dayoff" style="flex:1;border:1px solid var(--border);border-radius:7px;padding:7px 10px;font-size:0.85rem">
+          <button onclick="admAddDayOff()" style="background:var(--navy);color:white;border:none;border-radius:7px;padding:8px 16px;font-size:0.85rem;cursor:pointer">Marquer indisponible</button>
+        </div>
+        <div id="adm-daysoff-list" style="margin-top:10px;font-size:0.82rem;color:var(--muted)">Aucune journée bloquée.</div>
+      </div>
+
+      <div style="background:#fef3cd;border-radius:8px;padding:0.85rem 1rem;font-size:0.8rem;color:#856404">
+        ⚠️ <strong>Note :</strong> Les modifications sont sauvegardées dans votre navigateur. Après chaque modification, pensez à retélécharger le fichier site mis à jour pour le redéployer sur Netlify si nécessaire.
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ADMIN ACCESS
+(function(){
+  if(window.location.search.includes('admin=1')){
+    document.getElementById('admin-panel').style.display='block';
+    loadAdminData();
+  }
+})();
+
+function closeAdmin(){ document.getElementById('admin-panel').style.display='none'; }
+
+let blockedSlots = JSON.parse(localStorage.getItem('cp_blocked')||'{}');
+let daysOff = JSON.parse(localStorage.getItem('cp_daysoff')||'[]');
+
+function saveBlocked(){ localStorage.setItem('cp_blocked', JSON.stringify(blockedSlots)); }
+function saveDaysOff(){ localStorage.setItem('cp_daysoff', JSON.stringify(daysOff)); }
+
+function admBlock(){
+  const d=document.getElementById('adm-date').value;
+  const s=document.getElementById('adm-slot').value;
+  if(!d){alert('Choisissez une date.');return;}
+  if(!blockedSlots[d]) blockedSlots[d]=[];
+  const slots=s?[s]:['08:00','09:00','10:00','11:00','13:00','14:00','15:00','16:00','17:00'];
+  slots.forEach(sl=>{ if(!blockedSlots[d].includes(sl)) blockedSlots[d].push(sl); });
+  saveBlocked(); renderBlockedList();
+}
+
+function admRemoveBlock(d,s){
+  if(!blockedSlots[d]) return;
+  blockedSlots[d]=blockedSlots[d].filter(x=>x!==s);
+  if(!blockedSlots[d].length) delete blockedSlots[d];
+  saveBlocked(); renderBlockedList();
+}
+
+function renderBlockedList(){
+  const el=document.getElementById('adm-blocked-list');
+  const keys=Object.keys(blockedSlots);
+  if(!keys.length){el.textContent='Aucun créneau bloqué.';return;}
+  el.innerHTML=keys.map(d=>`<div style="margin-bottom:4px"><strong>${d}</strong> : `+blockedSlots[d].map(s=>`<span style="background:#fee;border:1px solid #fcc;border-radius:4px;padding:1px 7px;margin:0 3px;font-size:0.78rem">${s} <button onclick="admRemoveBlock('${d}','${s}')" style="background:none;border:none;color:red;cursor:pointer;font-size:0.75rem">✕</button></span>`).join('')+'</div>').join('');
+}
+
+function admAddDayOff(){
+  const d=document.getElementById('adm-dayoff').value;
+  if(!d||daysOff.includes(d)){return;}
+  daysOff.push(d); saveDaysOff(); renderDaysOffList();
+  // Also block all slots for that day
+  blockedSlots[d]=['08:00','09:00','10:00','11:00','13:00','14:00','15:00','16:00','17:00'];
+  saveBlocked();
+}
+
+function admRemoveDayOff(d){
+  daysOff=daysOff.filter(x=>x!==d); saveDaysOff(); renderDaysOffList();
+  delete blockedSlots[d]; saveBlocked();
+}
+
+function renderDaysOffList(){
+  const el=document.getElementById('adm-daysoff-list');
+  if(!daysOff.length){el.textContent='Aucune journée bloquée.';return;}
+  el.innerHTML=daysOff.map(d=>`<span style="background:#fee;border:1px solid #fcc;border-radius:4px;padding:2px 10px;margin:3px;display:inline-block;font-size:0.8rem">${d} <button onclick="admRemoveDayOff('${d}')" style="background:none;border:none;color:red;cursor:pointer">✕</button></span>`).join('');
+}
+
+function admSaveInfos(){
+  const tel=document.getElementById('adm-tel').value;
+  const email=document.getElementById('adm-email').value;
+  const video=document.getElementById('adm-video').value;
+  localStorage.setItem('cp_tel',tel);
+  localStorage.setItem('cp_email',email);
+  if(video) localStorage.setItem('cp_video',video);
+  // Update visible elements
+  document.querySelectorAll('a[href^="tel:"]').forEach(a=>{a.href='tel:+33'+tel.replace(/\D/g,'').replace(/^0/,'');a.textContent=tel;});
+  document.querySelectorAll('a[href^="mailto:"]').forEach(a=>{a.href='mailto:'+email;a.textContent=email;});
+  if(video) document.querySelectorAll('a[href="VOTRE_LIEN_VIDEO"]').forEach(a=>a.href=video);
+  const msg=document.getElementById('adm-save-msg');
+  msg.style.display='inline'; setTimeout(()=>msg.style.display='none',2500);
+}
+
+function loadAdminData(){
+  renderBlockedList(); renderDaysOffList();
+  const tel=localStorage.getItem('cp_tel'); if(tel) document.getElementById('adm-tel').value=tel;
+  const email=localStorage.getItem('cp_email'); if(email) document.getElementById('adm-email').value=email;
+  const video=localStorage.getItem('cp_video'); if(video){ document.getElementById('adm-video').value=video; document.querySelectorAll('a[href="VOTRE_LIEN_VIDEO"]').forEach(a=>a.href=video); }
+}
+</script>
+
+</body>
+</html>
